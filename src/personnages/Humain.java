@@ -22,12 +22,13 @@ public class Humain {
 		return nom;
 	}
 
+	
 	public void parler(String texte) {
 		System.out.println(texte);
 	}
 
 	public void direBonjour() {
-		parler("Bonjour ! Je m'appelle " + nom + " et j'aime boire du " + boisson);
+		parler("Bonjour ! Je m'appelle " + nom + " et j'aime boire du " + boisson + ".");
 
 	}
 

@@ -6,6 +6,11 @@ public class Commerçant extends Humain {
 		super(nom, "thé", argent);
 
 	}
+	public void recevoir(int argent) {
+		gagnerArgent(argent);
+	}
+	
+
 
 	public int seFaireExtorquer() {
 		int oldArgent = getArgent();
